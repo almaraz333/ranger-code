@@ -1,0 +1,32 @@
+.header {
+    height: 3rem;
+    padding: 2rem 3rem;
+    display: flex;
+    align-items: center;
+    font-family: Nunito, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    max-width: 100%;
+
+    .header-links {
+        margin-left: 2.5rem;
+        display: flex;
+        justify-content: space-around;
+
+        a {
+            text-decoration: none;
+            padding: 0 2rem;
+            color: rgb(145 145 145);
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                color: rgb(0 0 0);
+                transform: scale(1.1);
+            }
+
+            span {
+                font-weight: 900;
+            }
+        }
+    }
+}

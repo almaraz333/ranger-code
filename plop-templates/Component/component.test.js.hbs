@@ -1,0 +1,9 @@
+import { mount } from "@cypress/react";
+import { {{pascalCase name}} } from ".";
+
+describe('{{pascalCase name}} test', () => {
+  it('successfully gets content', () => {
+    mount( <{{pascalCase name}} />);
+    cy.contains('{{pascalCase name}}');
+  });
+});

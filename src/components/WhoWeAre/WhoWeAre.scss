@@ -1,0 +1,25 @@
+.who-we-are {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    h3 {
+        text-decoration: underline;
+    }
+
+    .headshot {
+        border-radius: 50%;
+        height: 10rem;
+        width: 10rem;
+        object-fit: cover;
+        object-position: 50% 40%;
+        margin: 2rem 0;
+        border: solid 2px #000;
+    }
+
+    p {
+        max-width: 30rem;
+        text-align: center;
+        margin: 3rem auto 0;
+    }
+}

@@ -1,0 +1,46 @@
+.my-philosophy {
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+
+    .my-philosophy-grid {
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+
+        .my-philosophy-grid-item {
+            word-wrap: break-word;
+            margin: 3rem 0;
+
+            .title-container {
+                display: flex;
+                align-items: center;
+
+                h3 {
+                    padding: 1.3rem 0;
+                    font-size: 2rem;
+                }
+            }
+
+            p {
+                color: rgb(145 145 145);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .my-philosophy {
+        .my-philosophy-grid {
+            padding: 2rem 0;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 3rem;
+
+            .my-philosophy-grid-item {
+                width: 30rem;
+            }
+        }
+    }
+}

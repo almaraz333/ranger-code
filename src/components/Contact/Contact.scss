@@ -1,0 +1,19 @@
+.contact-form-container {
+    padding: 7rem 3rem;
+    display: flex;
+    flex-direction: column;
+
+    .contact-form {
+        margin-top: 5rem;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-form-item {
+        width: 80vw;
+        max-width: 30rem;
+    }
+}

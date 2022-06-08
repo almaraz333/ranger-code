@@ -1,0 +1,1 @@
+export { MyPhilosophy } from './MyPhilosophy';

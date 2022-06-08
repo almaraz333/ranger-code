@@ -1,0 +1,27 @@
+.hero-container {
+    background-image: url("../../assets/images/hero2.jpg");
+    height: 50rem;
+    background-size: cover;
+    width: 97vw;
+    margin: 0 auto;
+
+    .hero-title {
+        padding-top: 8rem;
+        padding-left: 3rem;
+        color: rgb(255 255 255);
+
+        p {
+            padding-top: 2rem;
+            word-wrap: break-word;
+            color: rgb(230 230 230);
+            max-width: 20rem;
+            font-weight: 700;
+            font-size: 1.135rem;
+
+            span {
+                color: #fff;
+                font-weight: 900;
+            }
+        }
+    }
+}
