@@ -1,4 +1,5 @@
 /* PLOP_INJECT_EXPORT */
+export { Employee } from './Employee';
 export { WhoWeAre } from './WhoWeAre';
 export { Contact } from './Contact';
 export { MyPhilosophy } from './MyPhilosophy';
