@@ -1,4 +1,4 @@
-import { Contact, Header, HeroImage, MyPhilosophy, WhatWeDo, WhoWeAre } from "./components";
+import { Contact, Header, HeroImage, MyPhilosophy, WhatWeDo, WhoWeAre, WhyItWorks } from "./components";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -11,8 +11,9 @@ function App() {
       <Header />
       <HeroImage />
       <WhoWeAre />
-      <WhatWeDo />
       <MyPhilosophy />
+      <WhatWeDo />
+      <WhyItWorks />
       <Contact />
     </div>
   );

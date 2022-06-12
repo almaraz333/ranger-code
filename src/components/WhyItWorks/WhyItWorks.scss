@@ -1,0 +1,56 @@
+.why-it-works {
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+
+    .why-it-works-container {
+        display: flex;
+        flex-direction: column;
+
+        .why-it-works-item {
+            padding: 5rem 0;
+            max-width: 80vw;
+            transition: all 1s ease-in;
+
+            h3 {
+                cursor: pointer;
+
+                &::after {
+                    content: "";
+                    width: 0;
+                    height: 1px;
+                    display: block;
+                    background: #fff;
+                    transition: 300ms;
+                }
+
+                &:hover::after {
+                    width: 100%;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            span {
+                font-weight: 900;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .why-it-works {
+        .why-it-works-container {
+            width: fit-content;
+            margin: 0 auto;
+
+            .why-it-works-item {
+                padding: 5rem 0;
+                width: 30rem;
+            }
+        }
+    }
+}

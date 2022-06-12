@@ -25,30 +25,26 @@ export const Header: React.FC<HeaderProps> = () => {
       {/* <FontAwesomeIcon onClick={handleMobileMenuOpen} size="2x" className="mobile-menu-icon" icon={faBars} /> */}
       <div className="header-links">
         <a href="#whoWeAre">Who We Are</a>
-        <a href="#whatWeDo">What We Do</a>
         <a href="#philosophy">Our Philosophy</a>
+        <a href="#whatWeDo">What We Do</a>
+        <a href="#WhyItWorks">Why It Works</a>
         <a href="#contact">
           <span>Contact</span>
         </a>
       </div>
       <nav className={`mobile-nav-bar ${isMobileMenuOpen && "mobile-nav-bar-open"}`}>
-        {/* <FontAwesomeIcon
-          onClick={handleMobileMenuClose}
-          size="2x"
-          className="mobile-menu-close-icon"
-          icon={faXmark}
-          color="#fff"
-        /> */}
-
         <div className="mobile-header-links">
           <a onClick={handleMobileMenuClose} href="#whoWeAre">
             Who We Are
           </a>
+          <a onClick={handleMobileMenuClose} href="#philosophy">
+            Our Philosophy
+          </a>
           <a onClick={handleMobileMenuClose} href="#whatWeDo">
             What We Do
           </a>
-          <a onClick={handleMobileMenuClose} href="#philosophy">
-            Our Philosophy
+          <a onClick={handleMobileMenuClose} href="#WhyItWorks">
+            WhyItWorks
           </a>
           <a onClick={handleMobileMenuClose} href="#contact">
             <span>Contact</span>
