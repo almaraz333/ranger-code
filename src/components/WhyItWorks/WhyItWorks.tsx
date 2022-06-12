@@ -9,19 +9,18 @@ export const WhyItWorks: React.FC<WhyItWorksProps> = () => {
         <div className="why-it-works-item">
           <h3>
             <a href="https://www.thehartford.com/business-insurance/strategy/building-website/10-reasons-need-website">
-              Online Visibility
+              Online Visibility <span>(The Hartford)</span>
             </a>
           </h3>
           <p>
-            <span>80%</span> of people search a business online before visiting it or buying something. That means
-            <span> 8/10 </span>
-            potential customers could be lost without an online presence.
+            Websites increase the reach of businesses, allowing them to reach more potential customers driving up sales
+            as well as conveying professionalism.
           </p>
         </div>
         <div className="why-it-works-item">
           <h3>
             <a href="https://www.forbes.com/sites/theyec/2020/02/03/why-every-business-needs-a-website/?sh=7c0912716e75">
-              Credibility
+              Credibility <span>(Forbes)</span>
             </a>
           </h3>
           <p>
@@ -31,7 +30,9 @@ export const WhyItWorks: React.FC<WhyItWorksProps> = () => {
         </div>
         <div className="why-it-works-item">
           <h3>
-            <a href="https://www.godaddy.com/garage/why-need-small-business-website/">Free Advertising</a>
+            <a href="https://www.godaddy.com/garage/why-need-small-business-website/">
+              Free Advertising <span>(GoDaddy)</span>
+            </a>
           </h3>
           <p>
             We optimize our custom created sites to ensure good search results. When potential customers search for
