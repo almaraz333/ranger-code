@@ -26,7 +26,7 @@ export const WhyItWorks: React.FC<WhyItWorksProps> = () => {
           </h3>
           <p>
             Having an online presence like a website adds credibility to your business. To potential customers this
-            makes your business seem more legitimate, increasing the chances they follow thought with a purchase.
+            makes your business seem more legitimate.
           </p>
         </div>
         <div className="why-it-works-item">
