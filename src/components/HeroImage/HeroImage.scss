@@ -4,11 +4,15 @@
     background-size: cover;
     width: 97vw;
     margin: 0 auto;
+    color: rgb(255 255 255);
+
+    h1 {
+        font-weight: 900;
+    }
 
     .hero-title {
         padding-top: 8rem;
         padding-left: 3rem;
-        color: rgb(255 255 255);
 
         p {
             padding-top: 2rem;

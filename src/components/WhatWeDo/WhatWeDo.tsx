@@ -14,7 +14,7 @@ export const WhatWeDo: React.FC<WhatWeDoProps> = () => {
           </svg>
           <div>
             <h3>Web Apps and Business Sites</h3>
-            <p>Smart, clean, customer facing digital experiences proven to drive engagement.</p>
+            <p>Smart, clean, customer facing digital experiences and websites proven to drive engagement.</p>
           </div>
         </div>
         <div className="what-we-do-item">
