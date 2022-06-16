@@ -11,10 +11,8 @@ export const MyPhilosophy: React.FC<MyPhilosophyProps> = () => {
       <div className="my-philosophy-grid">
         <div className="my-philosophy-grid-item">
           <div className="title-container">
-            <h3>
-              Efficiency
-              <FontAwesomeIcon icon={faBolt} style={{ paddingLeft: "1.5rem" }} />
-            </h3>
+            <h3>Efficiency</h3>
+            <FontAwesomeIcon size="2x" icon={faBolt} style={{ paddingLeft: "1.5rem" }} />
           </div>
 
           <p>
@@ -24,10 +22,8 @@ export const MyPhilosophy: React.FC<MyPhilosophyProps> = () => {
         </div>
         <div className="my-philosophy-grid-item">
           <div className="title-container">
-            <h3>
-              Simplicity
-              <FontAwesomeIcon icon={faCode} style={{ paddingLeft: "1.5rem" }} />
-            </h3>
+            <h3>Simplicity</h3>
+            <FontAwesomeIcon size="2x" icon={faCode} style={{ paddingLeft: "1.5rem" }} />
           </div>
           <p>
             Over-clutter online is a real problem. The shortest way to convey to your users the needed information the
@@ -37,10 +33,8 @@ export const MyPhilosophy: React.FC<MyPhilosophyProps> = () => {
         </div>
         <div className="my-philosophy-grid-item">
           <div className="title-container">
-            <h3>
-              Client Centered
-              <FontAwesomeIcon icon={faPeopleLine} style={{ paddingLeft: "1.5rem" }} />
-            </h3>
+            <h3>Client Centered</h3>
+            <FontAwesomeIcon size="2x" icon={faPeopleLine} style={{ paddingLeft: "1.5rem" }} />
           </div>
           <p>
             No one knows your business better than you. By making the client (you) the center of our business model we
@@ -49,10 +43,8 @@ export const MyPhilosophy: React.FC<MyPhilosophyProps> = () => {
         </div>
         <div className="my-philosophy-grid-item">
           <div className="title-container">
-            <h3>
-              Accessible
-              <FontAwesomeIcon icon={faWheelchair} style={{ paddingLeft: "1.5rem" }} />
-            </h3>
+            <h3>Accessible</h3>
+            <FontAwesomeIcon size="2x" icon={faWheelchair} style={{ paddingLeft: "1.5rem" }} />
           </div>
           <p>
             Everyone deserves to access the internet equally. I believe this not only from a personal view but also a
