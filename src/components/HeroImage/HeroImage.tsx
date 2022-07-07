@@ -1,14 +1,13 @@
 import { HeroImageProps } from "./types";
 import "./HeroImage.scss";
+import Logo from "../../assets/images/logo.png";
 
 export const HeroImage: React.FC<HeroImageProps> = () => {
   return (
-    <div className="hero-container">
-      <div className="hero-title">
-        <h1>Custom Website Creation</h1>
-
-        <p>Years of experience, modern technology, the online presence your business deserves</p>
-      </div>
-    </div>
+    <section className="hero-container">
+      <h1>Custom Website Creation</h1>
+      <p>The online presence your business deserves</p>
+      <img className="logo" src={Logo} alt="" />
+    </section>
   );
 };

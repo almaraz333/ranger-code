@@ -1,28 +1,20 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-
 import { HeaderProps } from "./types";
 import "./Header.scss";
 import { useState } from "react";
+import Logo from "../../assets/images/logo.png";
 
 export const Header: React.FC<HeaderProps> = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [open, setOpen] = useState(false);
-
-  const handleMobileMenuOpen = () => {
-    setIsMobileMenuOpen(true);
-    // document.body.style.overflow = "hidden";
-  };
 
   const handleMobileMenuClose = () => {
     setIsMobileMenuOpen(false);
-    // document.body.style.overflow = "visible";
   };
   return (
     <header className="header">
-      <div>ranger code</div>
-
-      {/* <FontAwesomeIcon onClick={handleMobileMenuOpen} size="2x" className="mobile-menu-icon" icon={faBars} /> */}
+      <div className="logo-container">
+        <img className="logo" src={Logo} alt="dog logo" />
+        <div>ranger code</div>
+      </div>
       <div className="header-links">
         <a href="#whoWeAre">Who We Are</a>
         <a href="#philosophy">Our Philosophy</a>

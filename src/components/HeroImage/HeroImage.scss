@@ -1,31 +1,25 @@
 .hero-container {
-    background-image: url("../../assets/images/hero2.jpg");
-    height: 50rem;
-    background-size: cover;
-    width: 97vw;
-    margin: 0 auto;
-    color: rgb(255 255 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
 
     h1 {
         font-weight: 900;
+        margin-top: 5rem;
+        font-size: 4rem;
     }
 
-    .hero-title {
-        padding-top: 8rem;
-        padding-left: 3rem;
+    p {
+        font-weight: 900;
+    }
 
-        p {
-            padding-top: 2rem;
-            word-wrap: break-word;
-            color: rgb(230 230 230);
-            max-width: 20rem;
-            font-weight: 700;
-            font-size: 1.135rem;
-
-            span {
-                color: #fff;
-                font-weight: 900;
-            }
-        }
+    .logo {
+        height: auto;
+        width: 60%;
+        margin: 0 auto;
     }
 }
