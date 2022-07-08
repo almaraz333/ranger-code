@@ -36,7 +36,7 @@ export const Header: React.FC<HeaderProps> = () => {
             What We Do
           </a>
           <a onClick={handleMobileMenuClose} href="#WhyItWorks">
-            WhyItWorks
+            Why It Works
           </a>
           <a onClick={handleMobileMenuClose} href="#contact">
             <span>Contact</span>

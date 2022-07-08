@@ -9,7 +9,8 @@
 
     .particle-container {
         margin-top: 3rem;
-        // z-index: -1;
+        display: flex;
+        justify-content: center;
     }
 
     #tsparticles {
