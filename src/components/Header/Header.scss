@@ -2,6 +2,7 @@
 .header {
     height: 3rem;
     padding: 2rem 3rem;
+    padding-left: 1rem;
     display: flex;
     align-items: center;
     font-family: Nunito, sans-serif;
@@ -30,6 +31,7 @@
 
         &.mobile-nav-button-open {
             color: #fff;
+            position: fixed;
         }
     }
 
@@ -52,6 +54,7 @@
 
         .mobile-menu-close-icon {
             margin-left: auto;
+            position: fixed;
         }
 
         .mobile-header-links {

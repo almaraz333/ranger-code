@@ -1,6 +1,6 @@
 import { HeaderProps } from "./types";
 import "./Header.scss";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Logo from "../../assets/images/logo.png";
 
 export const Header: React.FC<HeaderProps> = () => {
@@ -9,6 +9,25 @@ export const Header: React.FC<HeaderProps> = () => {
   const handleMobileMenuClose = () => {
     setIsMobileMenuOpen(false);
   };
+
+  const disableScroll = () => {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+    // if any scroll is attempted, set this to the previous value
+    window.onscroll = function () {
+      window.scrollTo(scrollLeft, scrollTop);
+    };
+  };
+
+  const enableScroll = () => {
+    window.onscroll = function () {};
+  };
+
+  useEffect(() => {
+    if (isMobileMenuOpen) disableScroll();
+    else enableScroll();
+  }, [isMobileMenuOpen]);
+
   return (
     <header className="header">
       <div className="logo-container">
