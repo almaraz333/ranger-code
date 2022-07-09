@@ -53,6 +53,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-helmet": "^6.1.5",
     "stylelint": "^14.8.5",
     "stylelint-config-standard": "^25.0.0"
   }
