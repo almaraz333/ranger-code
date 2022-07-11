@@ -43,7 +43,7 @@ export const MyPhilosophy: React.FC<MyPhilosophyProps> = () => {
         </div>
         <div className="my-philosophy-grid-item">
           <div className="title-container">
-            <h3>Accessible</h3>
+            <h3>Accessibility</h3>
             <FontAwesomeIcon size="2x" icon={faWheelchair} style={{ paddingLeft: "1.5rem" }} />
           </div>
           <p>
